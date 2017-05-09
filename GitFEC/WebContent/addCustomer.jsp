@@ -29,6 +29,9 @@
 			}
 		}
 	</script>
+			<a href="helpAddCustomer.html" target="window" >
+  		<img src="help.png" align="right" alt="help" style="width:42px;height:42px;border:0;">
+		</a> 
 	<h1>Please enter customer information:</h1>
 	<FORM name="addCustomer" METHOD="post"
 		ACTION="addCustomerConfirmation.jsp">

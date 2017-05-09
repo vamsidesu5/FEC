@@ -12,6 +12,9 @@
 <link rel="stylesheet" type="text/css" href="FEC.css"></link>
 </head>
 <body>
+		<a href="helpPrintEmployeeReport.html" target="window" >
+  		<img src="help.png" align="right" alt="help" style="width:42px;height:42px;border:0;">
+		</a> 
 <!-- HTML Page to display all the employees -->
 	<form action="index.html" method="LINK">
 		<p style="text-align: left;">

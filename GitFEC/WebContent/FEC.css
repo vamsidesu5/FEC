@@ -85,3 +85,27 @@ table tr:nth-child(even) {		      /* added all even rows a #eee color  */
 
 table tr:nth-child(odd) {		     /* added all odd rows a #fff color  */
 background-color:#fff;		}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 400px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 60px;
+    padding: 50px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}

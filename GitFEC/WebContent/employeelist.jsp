@@ -11,6 +11,9 @@
 <title>DEC Center</title>
 </head>
 <body>
+		<a href="helpEmployeeList.html" target="window" >
+  		<img src="help.png" align="right" alt="help" style="width:42px;height:42px;border:0;">
+		</a> 
 	<h1>Employee List</h1>
 	<form name="empList">
 		<script>

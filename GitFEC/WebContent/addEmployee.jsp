@@ -36,7 +36,18 @@
 	<FORM name="addEmployee" METHOD="post"
 		ACTION="addEmployeeConfirmation.jsp">
 		<%-- This page gathers the details of the new employee and forwards them to addEmployeeConfirmation.jsp --%>
+		<a href="helpAddEmployee.html" target="window" >
+  		<img src="help.png" align="right" alt="help" style="width:42px;height:42px;border:0;">
+		</a> 
+		<table style="width: 50%">
+		<tr>
+		<td>
+		
 		<h1>Enter Employee Details:</h1>
+		</td>
+
+		</tr>
+		</table>
 		<table style="width: 50%">
 			   
 			<tr>

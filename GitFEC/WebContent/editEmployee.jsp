@@ -12,7 +12,9 @@
 <link rel="stylesheet" type="text/css" href="FEC.css"></link>
 </head>
 <body>
-
+		<a href="helpEditEmployee.html" target="window" >
+  		<img src="help.png" align="right" alt="help" style="width:42px;height:42px;border:0;">
+		</a> 
 	<%
 		int id = Integer.parseInt(request.getParameter("id"));
 		pageContext.setAttribute("id", id);

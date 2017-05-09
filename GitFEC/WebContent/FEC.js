@@ -122,5 +122,6 @@ function validateTwoTimeFields(fieldName1, fieldName2) {
 	}
 
 	return true;
-
+	
 }
+
